@@ -78,6 +78,8 @@ Imagine waiting for more than 4 months for a Brick Hill clone that will never la
 
 Good luck getting the [renderer](https://github.com/lunar-hill/renderer) working.
 
+forgot to say, running is done by `php artisan serve --port=80`
+
 ## Development Tools
 
 Anyone not using VSCode is invalid.
