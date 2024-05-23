@@ -26,7 +26,7 @@ Imagine waiting for more than 4 months for a Brick Hill clone that will never la
 
 3. Add MySQL user
     ```sh
-    sudo mysql
+    sudo mariadb
     ```
 
     ```sql
@@ -64,7 +64,6 @@ Imagine waiting for more than 4 months for a Brick Hill clone that will never la
         -p 9600:9600 \
         -e "discovery.type=single-node" \
         -e "plugins.security.disabled=true" \
-        -v opensearchdata:/usr/share/opensearch/data \
         opensearchproject/opensearch:2
    ```
 
@@ -79,6 +78,8 @@ Imagine waiting for more than 4 months for a Brick Hill clone that will never la
 Good luck getting the [renderer](https://github.com/lunar-hill/renderer) working.
 
 forgot to say, running is done by `php artisan serve --port=80`
+
+create an issue if you need help.
 
 ## Development Tools
 
